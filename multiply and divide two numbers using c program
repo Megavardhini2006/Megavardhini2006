@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main()
+{
+    int a,b,add,sub;
+    printf("enter two numbers:");
+    scanf("%d %d",&a,&b);
+    mul=a*b;
+    div=a/b;
+    printf("multiply two numbers:%d * %d = %d\n",&mul);
+    printf("divide two numbers: %d / %d\n",&div);
+
+    return 0;
+}
